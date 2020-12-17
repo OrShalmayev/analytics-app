@@ -131,7 +131,7 @@
             
             //add class to cursor when clicked
             function flashClass(el, className) {
-                let prevColor = el.style.backgroundColor; 
+                let prevColor = 'blue'; 
                 let prevPadding = 2; 
                 el.style.backgroundColor='red';
                 el.style.padding=`${prevPadding*4}px`;
